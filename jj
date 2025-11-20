@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Open with Love – For Junnu</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="glitter"></div>
+    <div class="letter-closed" id="letter" onclick="openLetter()">
+      <img src="bear-opening.gif" id="bear" alt="Bear Opening Letter" />
+      <div class="label">Open with Love</div>
+      <div class="to-name">To: Junnu</div>
+    </div>
+    <div class="popup" id="popup">
+      <div class="popup-content">
+        <h2>Junnu</h2>
+        <p>
+          iam soo sorry nana inka eppdu alaa cheyanu nana idi last nana niku mari bayapaduthu relationship lo undadu nana i got it nana nenu Ela undali alaa untaa nana and career gurinchi bayapadaku nana nenu chusukunta nana nuv natho undi maa and thank you for controling my mood swings nana ni lanti ammayi Naku ekkada dorakadu nana na bangaram kannulu nuvu ❤️
+          <br /><br />
+          I love you forever, Nana.
+        </p>
+        <span class="close" onclick="closePopup()">Close</span>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
